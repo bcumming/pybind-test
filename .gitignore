@@ -1,0 +1,13 @@
+
+# vim temporary files
+.*.swp
+.*.swn
+
+# object and executable files
+*.o
+a.out
+
+# library and marker files for python modules
+*.so
+module
+group
