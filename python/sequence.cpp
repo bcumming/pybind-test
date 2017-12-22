@@ -27,7 +27,7 @@ public:
     }
 };
 
-PYBIND11_MODULE(module, m) {
+PYBIND11_MODULE(sequence, m) {
     pybind11::class_<sequence, py_sequence> sequence(m, "sequence");
     sequence.def(pybind11::init<>())
             .def("pop",   &sequence::pop)
