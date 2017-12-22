@@ -3,11 +3,15 @@
 .*.swn
 
 # object and executable files
+*.a
 *.o
+*.so
 a.out
 
-# library and marker files for python modules
-*.so
 
 # build
 build
+Makefile
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
