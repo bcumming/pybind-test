@@ -37,6 +37,7 @@ PYBIND11_MODULE(sequence, m) {
         .def(pybind11::init<float, float>());
 
     m.def("print", &print, "print all entries in a sequence up to a set limit");
+    m.def("print_first_n", &print_first_n, "print the next n entries in a sequence");
     m.def("make_regular_sequence", &make_regular_sequence, "construct a regular sequence");
     m.def("popper", &popper, "pop a sequence n times");
 }

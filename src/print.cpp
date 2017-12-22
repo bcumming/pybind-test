@@ -10,3 +10,12 @@ void print(sequence* s, float lim) {
         s->pop();
     }
 }
+
+void print_first_n(sequence* s, unsigned n) {
+    std::cout << "==== printing sequence\n";
+    auto i = n;
+    while(n--) {
+        std::cout << "  pop: " << s->front() << "\n";
+        s->pop();
+    }
+}
