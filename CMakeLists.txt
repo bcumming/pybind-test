@@ -7,7 +7,6 @@ include_directories("${PROJECT_SOURCE_DIR}/include")
 # required to use in pthon .so files
 set(CMAKE_CXX_FLAGS "-fPIC")
 
-
 # Set up pybind.
 # Add support for pybind by adding the directory of pybind11, instead of using
 # find_package().
